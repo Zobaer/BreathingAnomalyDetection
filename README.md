@@ -15,9 +15,11 @@ This is part of an NSF funded project on human respiration monitoring using infr
 
 1) **Classification_using_DT_RF.py**: This is the main python file that did classification of breathing data into 8 different classes using decision tree and random forest algorithms, does hyperparameter tuning, 10-fold cross validation, calculate accuracies and cross-validation create confusion matrices.
 2) **automated_data_gen.m**: This is MATLAB file that reads a list of 50 pairs (breathing depth, breathing rate) from a file and generates continuous breathing data (amplitude), each 60 seconds long, automatically based on given rate and depth values. It adds 5 seconds of buffer at the beginning and at the end of the whole data. This generated data can be loaded to the breathing robot and the robot will breathe following that pattern.
-3) **split_file.m**: After collecting data for longer duration (50 mins), this MATLAB file was used to split it into individual data files (60 seconds segments). It does appropriate naming too to recognize them.
-4) **data.mat**: This file has collected 1200 breathing data with class labels, in MATLAB compatible format.
-5) **plot_one_data.m**: MATLAB file to plot one data, along with its amplitude spectrum for visualization.
+![alt text](https://github.com/Zobaer/BreathingAnomalyDetection/blob/main/figs/Generated_data_class_3.png)
+
+4) **split_file.m**: After collecting data for longer duration (50 mins), this MATLAB file was used to split it into individual data files (60 seconds segments). It does appropriate naming too to recognize them.
+5) **data.mat**: This file has collected 1200 breathing data with class labels, in MATLAB compatible format.
+6) **plot_one_data.m**: MATLAB file to plot one data, along with its amplitude spectrum for visualization.
 
 ![alt text](https://github.com/Zobaer/BreathingAnomalyDetection/blob/main/figs/Data_visualization.png)
 
