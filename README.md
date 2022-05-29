@@ -24,5 +24,5 @@ This is part of an NSF funded project on human respiration monitoring using infr
 
   - Peak-to-peak amplitude (in V)
   - Breathing rate (in bpm)
-  - Effective spectral spread (a custom feature to get idea on how the frequency components are spread in the signal)
+  - Effective spectral spread (a custom feature to get an estimate on how the frequency components are spread in the signal, it differentiates between one clean peak vs a lot of peaks at different frequencies in the amplitude spectrum.)
   - Signal to noise ratio
